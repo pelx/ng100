@@ -1,0 +1,51 @@
+<div class="social-media-bar-container">
+    <ng-container *ngFor="let media of socialMedia">
+        <ng-container [ngSwitch]="media.type">
+            <a
+                *ngSwitchCase="SocialMedia.Facebook"
+                [href]="media.href"
+                target="blank"
+                class="facebook"
+            >
+                <fa-icon [icon]="faFacebook"></fa-icon>
+            </a>
+            <a
+                *ngSwitchCase="SocialMedia.Instagram"
+                [href]="media.href"
+                target="blank"
+                class="instagram"
+            >
+                <fa-icon [icon]="faInstagram"></fa-icon>
+
+            </a>
+            <a
+                *ngSwitchCase="SocialMedia.LinkedIn"
+                [href]="media.href"
+                target="blank"
+                class="linked-in"
+            >
+                <fa-icon [icon]="faLinkedin"></fa-icon>
+
+            </a>
+            <a
+                *ngSwitchCase="SocialMedia.Twitter"
+                [href]="media.href"
+                target="blank"
+                class="twitter"
+            >
+                <fa-icon [icon]="faTwitter"></fa-icon>
+
+            </a>
+            <a
+                *ngSwitchCase="SocialMedia.YouTube"
+                [href]="media.href"
+                target="blank"
+                class="you-tube"
+            >
+                <fa-icon [icon]="faYoutube"></fa-icon>
+
+            </a>
+
+        </ng-container>
+    </ng-container>
+</div>

@@ -1,0 +1,12 @@
+{
+    "angular.enable-strict-mode-prompt": false,
+    "css.styleSheets": [
+        "scss", "css"
+    ],
+
+    "css.enabledLanguages": [
+      "html", "css", "scss"
+  ]
+
+}
+

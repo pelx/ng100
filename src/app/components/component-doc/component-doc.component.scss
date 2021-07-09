@@ -1,0 +1,24 @@
+@import "src/styles";
+
+fa-icon {
+  font-size: medium;
+}
+
+button {
+  background-color: rgb(73, 170, 226);
+  color: rgb(252, 249, 249);
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.text-center {
+  text-align: center;
+  text-decoration: dashed;
+}
+
